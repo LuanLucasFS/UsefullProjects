@@ -4,14 +4,10 @@ import datetime
 
 filename = "./ToDoList/tasks.txt"
 
-# Uses the datetime library to get current Month/Day/Year Hour:Minute
-def get_current_time():
-    return str(datetime.datetime.now().strftime("%D %H:%M"))
-
 # Adds a new task to the tasks.txt file
 def add_task(task):
     with open(filename, "a") as file:
-        file.write(get_current_time() + ": " + task +"\n")
+        file.write(task +"\n")
 
 # Removes a task from the tasks.txt file
 def remove_task(task):
@@ -31,7 +27,6 @@ def list_tasks():
     print("\n-== To Do List ==-\n")
     for i, t in enumerate(tasks):
         print(f"{i + 1}. {t.strip()}")
-    print("\n")
 
 # Clear all tasks from the tasks file
 def clear_tasks():
