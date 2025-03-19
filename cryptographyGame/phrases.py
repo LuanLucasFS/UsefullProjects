@@ -1,3 +1,4 @@
+
 easy_phrases = [
     "Believe in yourself and stay strong",
     "Small steps lead to big achievements",
