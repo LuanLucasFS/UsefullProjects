@@ -292,3 +292,45 @@ hard_phrases = [
     "The path to success is built one step, one effort, one lesson at a time",
     "Effort and persistence always bring rewards, even if they take time to show up"
 ]
+
+extreme_phrases = [
+    "Success is the result of continuous effort discipline and learning from failures Every small step you take today brings you closer to your dreams Keep pushing forward and never let obstacles stop you from achieving what you truly desire in life Your potential is limitless",
+    
+    "Hard work patience and resilience will always lead you to great achievements Every challenge you overcome makes you stronger and more prepared for the future Stay focused trust your journey and remember that progress no matter how small is still progress Keep moving forward",
+    
+    "Your mindset and daily habits determine the future you create for yourself Success is not an overnight event but a result of consistent dedication and smart choices Keep improving keep growing and always believe in your ability to reach new levels of greatness",
+    
+    "Every great accomplishment starts with a simple decision to begin If you want to achieve something remarkable take the first step and never stop moving forward Challenges will arise but each one is an opportunity to grow learn and become stronger than before",
+    
+    "The key to success is not just having big dreams but also taking consistent action towards them Every day presents a new chance to improve and get closer to your goals Stay disciplined focused and determined because every effort you make today will shape your future",
+    
+    "Obstacles are not meant to stop you they are tests to see how much you truly want something When faced with difficulties push through and find a way to keep going Success comes to those who refuse to give up and keep striving for excellence no matter what",
+    
+    "Discipline and commitment are the foundation of lasting success No matter how talented or skilled you are it is your ability to remain consistent in your actions that will determine how far you go Keep pushing forward stay patient and trust that your efforts will pay off",
+    
+    "Great things take time and effort but every step forward no matter how small brings you closer to success Do not let temporary struggles discourage you Keep working hard learning and growing because every moment spent improving yourself will bring future rewards",
+    
+    "Your progress may seem slow but every effort counts towards your ultimate success The journey is just as important as the destination Stay focused on your growth and keep believing in yourself because with perseverance and dedication you can accomplish anything",
+    
+    "The best way to achieve success is to stay committed to continuous learning and self improvement Never settle for mediocrity keep challenging yourself to grow Every skill you develop today will open doors to even greater opportunities in the future",
+    
+    "Your dreams will only remain dreams unless you take action to make them a reality Consistent effort and a strong work ethic are the true keys to success Keep setting goals pushing forward and staying dedicated to your vision no matter what challenges arise",
+    
+    "Success does not happen overnight it is built on small daily actions and consistent effort Do not be discouraged by slow progress because every step forward brings you closer to your goals Stay patient stay focused and trust the process of growth and improvement",
+    
+    "Believe in your abilities and never allow fear or doubt to hold you back Every great success story begins with someone who dared to take a risk and work hard for what they wanted Stay determined keep learning and never stop striving for excellence",
+    
+    "Your dedication and consistency will set you apart from those who give up too soon Success is not about luck but about persistence and the willingness to keep improving every day Stay disciplined work hard and embrace the challenges that come your way",
+    
+    "The only way to truly fail is to stop trying Every setback is a lesson that prepares you for greater opportunities Keep pushing forward and using each challenge as a stepping stone to success Never stop believing in yourself and your ability to achieve great things",
+    
+    "No matter how difficult the journey may seem remember that every effort brings you one step closer to success Challenges build resilience and wisdom so embrace the process and keep moving forward with confidence your hard work will eventually pay off",
+    
+    "Success is not about talent alone it is about commitment and perseverance The people who achieve the most in life are those who refuse to quit despite setbacks Keep working hard stay positive and trust that your dedication will lead you to great achievements",
+    
+    "Big dreams require bold action and unwavering commitment Never let fear or doubt keep you from pursuing what you truly want in life Stay focused on your goals push through every obstacle and keep taking steps forward success is always within reach",
+    
+    "Your ability to stay consistent and disciplined will determine how far you go in life No dream is too big if you are willing to put in the effort and make daily progress toward achieving it Stay strong stay motivated and keep striving for greatness",
+    
+    "The most successful people are not those who never fail but those who never quit Learn from your mistakes adapt to challenges and keep pushing forward Every setback is simply a setup for a greater comeback so never stop working towards your dreams"
+]

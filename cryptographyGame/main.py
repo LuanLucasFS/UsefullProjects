@@ -57,6 +57,15 @@ def prepare_phrase(phrase, mode):
                     new_phrase += " "
             else:
                 new_phrase += char
+    elif(mode == "extreme"):
+        for char in phrase:
+            if char.isalpha():
+                if(random.randint(0, 8) == 0):
+                    new_phrase += char
+                else:
+                    new_phrase += " "
+            else:
+                new_phrase += char
     return new_phrase
 
 def play_game(mode):
@@ -67,23 +76,34 @@ def play_game(mode):
         phrase = random.choice(phrases.medium_phrases)
     elif mode == "hard":
         phrase = random.choice(phrases.hard_phrases)
+    elif mode == "extreme":
+        phrase = random.choice(phrases.extreme_phrases)
     encrypted_phrase = encrypt(phrase, key)
     prepared_phrase = prepare_phrase(phrase, mode)
     while(True):    
         print("\n-== Cryptography Game ==-\n")
-
-        for char in prepared_phrase:
-            print(char + " ", end="")
-        print(".")
-        for char in encrypted_phrase:
-            if char!=" ":
-                print("-"+ " ", end="")
+        line1, line2, line3 = "", "", ""
+        char_count = 0
+        for i in range(len(prepared_phrase)):
+            if encrypted_phrase[i] != " ":
+                line1 += prepared_phrase[i] + " "
+                line2 += "- "
+                line3 += encrypted_phrase[i] + " "
+                char_count += 1
             else:
-                print("  ", end="")
-        print(".")
-        for char in encrypted_phrase:
-            print(char + " ", end="")
+                line1 += "  "
+                line2 += "  "
+                line3 += "  "
+            if char_count == 100:  # Quebra a cada 100 caracteres reais (excluindo espaços)
+                print(line1 + ".")
+                print(line2 + ".")
+                print(line3 + "\n")
+                line1, line2, line3 = "", "", ""
+                char_count = 0
 
+        print(line1)
+        print(line2)
+        print(line3)
         guess = input("\nGuess the phrase: ")
         if guess.lower() == phrase.lower():
             os.system('cls||clear')
@@ -100,7 +120,7 @@ def main():
         show_menu()
         command = input("Enter a command: ")
         if command == "play":
-            mode = input("Enter the difficulty level (easy, medium, hard): ")
+            mode = input("Enter the difficulty level (easy, medium, hard, extreme): ")
             play_game(mode)
         elif command == "exit":
             break
